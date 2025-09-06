@@ -18,33 +18,37 @@
 *Add more images if you have multiple views or animations*
 
 ### Features
-- [Feature 1 - e.g., "Colorful geometric patterns"]
-- [Feature 2 - e.g., "Interactive elements"]
+- [Colorful geometric patterns]
 
 ## 🚀 How to Run
+pip install -r dev-requirements
+run python ipython file submission.ipynb
 
 ### Prerequisites
 [List any requirements, libraries, or software needed]
 ```bash
 # Example for Python
-pip install matplotlib turtle numpy
+pip install mkdocs-material pytest
 ```
 
 ### Running the Code
 ```bash
 # Add your specific run commands here
-python pookalam.py
-# or
-open index.html
-# or your specific instructions
+python submission.py
+
 ```
 
 ## 📁 File Structure
 ```
 Code-a-Pookalam-2025/
 ├── README.md (this file)
-├── pookalam.py (or your main file)
-└── requirements.txt (if applicable)
+├── submission.py (or your main file)
+├──submission.ipynb
+├── joy.py
+├──.gitignore
+├──output
+|  └──pookalam-preview.png
+└── dev-requirements.txt (if applicable)
 ```
 
 ## 🎊 Happy Onam! 🎊
